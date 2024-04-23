@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuraView Help</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    h3 {
+      color: #3498DB;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .list-item {
+      margin-left: 20px;
+    }
+    .header-img {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      height: auto;
+      animation: floatAnimation 5s infinite;
+    }
+
+    @keyframes floatAnimation {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://raw.githubusercontent.com/KaiKai7/PuraView-Contaminant-Lookup/main/PuraView%20round.png" alt="PuraView Logo" class="header-img">
+
+  <h2>Finding a Water System</h2>
+  <p>PuraView searches the Environmental Protection Agency for information related to public drinking water systems. There are various ways to search for a water system, and some methods are not readily apparent. Because the name of the water system can differ from the city name or may be located in a different city, PuraView offers multiple search options.</p>
+
+  <h3>Search Results</h3>
+  <p>PuraView limits results to 150 items to streamline the fetching and processing of records. If 150 results are found and more may exist, use another search field in conjunction with the original one. When numerous results are processing, please be patient as several processes are underway to find and process the data you'll see.</p>
+
+  <h3>Network & Search Issues</h3>
+  <p>If there are network issues or the EPA server is down, a message will display on screen. This is often due to brief periods when the EPA is conducting maintenance on its systems. Simply wait a few minutes and try again. If the issue persists, check your search term for special characters, as they can sometimes cause what appears to be a network issue. Also, verify your network connection, VPN, or firewall settings for connectivity.</p>
+
+  <h3>Name Search</h3>
+  <p>Searching by name is a quick way to find the water system you seek. If the name is unique, there should not be too many results to sift through. The best way to obtain the name is from the utility bill. However, this might not always be possible for renters or tenants not listed on the property deed and therefore possibly not directly mailed a bill. You can also search using terms like "school," "daycare," or "institution" in the name field to find water systems associated with these facilities, making it easy to identify any issues, such as lead problems, in schools and daycare centers.</p>
+
+  <h3>City Search</h3>
+  <p>If the "Name" search yields too many results, consider adding a city and state to the search. This should narrow down the results to a manageable level and help you find what you're looking for. Some water systems may display "null" or blank for a city or county, which can make them hard to find, necessitating alternative search methods.</p>
+
+  <h3>State Search</h3>
+  <p>The "State" search uses the 2-digit abbreviated postal state code. Only enter the two digits, as full state names will fail in a search. State search is also useful for viewing neighboring water systems or identifying trends in water quality for a region.</p>
+
+  <h3>Optional Search Methods</h3>
+  <p>Several optional search methods can help further filter results, especially when there are too many to display. These methods can also identify water systems with serious water quality and health issues:</p>
+  <ul>
+    <li class="list-item"><strong>Lead above Allowed Level:</strong> Check this box to find water systems where the allowable limit of lead in drinking water tests was exceeded. If a city and state search using the lead feature yields no results, broaden the scope by searching only the state or the entire country.</li>
+    <li class="list-item"><strong>Serious Violator:</strong> This search option identifies water systems with violations severe enough to require a response action by the EPA. These are known as "Serious Violators."</li>
+    <li class="list-item"><strong>Active:</strong> This option returns only active and currently operational water systems, helping filter out inactive ones.</li>
+    <li class="list-item"><strong>Search by Contaminant:</strong> By using the drop-down menu, you can search for specific contaminants, providing a powerful search feature. Make sure to set the drop-down to the default blank position if not used.</li>
+  </ul>
+
+  <h3>Dictionary</h3>
+  <p><strong>Contaminant Info:</strong> Press the dictionary icon to access PuraView Help for information on contaminants. Press and hold the icon to view a contaminant reference table for basic information, or click on a contaminant name to navigate to an EPA site for more detailed information.</p>
+
+  <h3>Results Display Window</h3>
+  <p>The results of a search will display up to 150 water systems. Each item lists information directly related to that water system in an easy-to-view format. Serious issues will appear in red, making it easy to identify problems quickly. Press the dictionary icon to view definitions for each result entry. Additionally, there is a quick link to the EPA Detailed Facility Report for each water system.</p>
+
+  <h3>Optional Reports</h3>
+  <p>PuraView includes links to reports providing a better understanding of health concerns related to the water in your area. These reports include:</p>
+  <ul>
+    <li class="list-item"><strong>CCR Finder (Consumer Confidence Report):</strong> This report provides annual water quality reports as required by the CCR Rule. It includes information about the source of drinking water, potential health effects of contaminants, and actions taken to restore safe drinking water. Customers should receive these reports by mail or online. Failure to provide CCRs may result in penalties and fines.</li>
+    <li class="list-item"><strong>Facility Address Report:</strong> This report offers contact information for the facility, including names, phone numbers, addresses, and maps. This can be helpful in obtaining the CCR if it's not available online or on your utility bill.</li>
+  </ul>
+
+  <h3>EPA Server Validator</h3>
+  <p>There are times when the EPA server or a system may be down, affecting PuraView's functionality. Use the EPA Server Validator to check for downtime. Please note that this link does check for issues, but other factors may also impact service. If you encounter an issue, wait a few minutes and try again.</p>
+</body>
+</html>
